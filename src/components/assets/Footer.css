@@ -1,0 +1,19 @@
+/* assets/Footer.css */
+
+.footer {
+    position: fixed;  
+    bottom: 0;        
+    left: 0;          
+    width: 100%;     
+    background: var(--neutral-neutral-800);
+    color: white;    
+    padding: 10px 20px;  
+    text-align: center; 
+    z-index: 1000;       
+  }
+  
+  .footer img {
+    max-width: 120px;  
+    height: auto;      
+  }
+  

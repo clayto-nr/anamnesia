@@ -1,0 +1,20 @@
+.ButtonPrimary{
+    display: flex;
+    height: 36px;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    border-radius: 32px;
+    border: 1px solid var(--main-main-primary);
+    background: var(--main-main-primary);
+    color: var(--main-main-white);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ButtonPrimary:hover{
+    opacity: 50%;
+    cursor: pointer;
+}

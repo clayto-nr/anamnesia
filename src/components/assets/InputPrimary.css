@@ -1,0 +1,26 @@
+.InputPrimary{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.InputPrimary label{
+  color: var(--neutral-neutral-500);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.InputPrimary input{
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  outline: none;
+
+  border-radius: 8px;
+  border: 1px solid var(--neutral-neutral-700);
+}
+
+.InputPrimary input:hover{
+  border: 1px solid, var(--neutral-neutral-100);
+}
