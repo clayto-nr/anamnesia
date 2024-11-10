@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Topbar from "../components/Header";
-import InputPrimary from '../components/InputPrimary';
-import ButtonPrimary from '../components/Button';
+import Topbar from "../../../components/Header";
+import InputPrimary from '../../../components/InputPrimary';
+import ButtonPrimary from '../../../components/Button';
 import "./Login.css"
-import Footer from '../components/Footer';
+import Footer from '../../../components/Footer';
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -23,7 +23,7 @@ function Login() {
         <div className="content">
           <div className="info-title">
             <h1>Olá novamente!</h1>
-            <a href="/">Ainda não tem uma conta? <span>criar conta</span></a>
+            <a href="/register">Ainda não tem uma conta? <span>criar conta</span></a>
           </div>
 
             <form className='form'>
